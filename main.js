@@ -56,15 +56,29 @@ convertStringToNumber()
   
 // Write a JavaScript program that adds 2 numbers together.
 
-
+const add = (a,b) => {
+  let x = a+b
+  console.log(x)
+}
+add(10,10)
 
 // Write a JavaScript program that runs only when 2 things are true.
 
-
+const bothTrue = (a,b) => {
+if (a && b){
+  console.log("Both are true")
+}
+}
+bothTrue("645",false)
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
 
-
+const oneTrue = (a,b) => {
+  if (a || b){
+    console.log("One is true")
+  }
+  }
+oneTrue("645",false)
 
 // Write a JavaScript program that runs when both things are not true.  
 
