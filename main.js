@@ -15,20 +15,42 @@ const displayDate = () => {
  
 
 // Write a JavaScript program to convert a number to a string.
-
-currentDate = toString.currentDate
+const convertNumberToString = () => {
+  const num = 64
+  const str = num.toString()
+  console.log(str)
+}
+convertNumberToString()
 
 // Write a JavaScript program to convert a string to the number.
 
-currentDate = parseInt(currentDate);
+const convertStringToNumber = () => {
+  const str = "64"
+  const num = parseInt(str)
+  console.log(num)
+}
+convertStringToNumber()
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
   // * Boolean
+  64 == '64' // true
+  64 == 'sixty-four' //false
   // * Null
+
   // * Undefined
   // * Number
   // * NaN
   // * String
+
+  const showType = (x) => {
+    console.log(typeof(x))
+  }
+
+  showType(true)
+  showType(null)
+  showType(undefined)
+  showType(NaN)
+  showType("gb")
   
 
   
