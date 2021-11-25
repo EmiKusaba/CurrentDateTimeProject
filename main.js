@@ -82,6 +82,12 @@ oneTrue("645",false)
 
 // Write a JavaScript program that runs when both things are not true.  
 
+const bothFalse = (a,b) => {
+  if (!a && !b){
+    console.log("Both are false")
+  }
+  }
+  bothFalse(false,false)
 // ***************************
 //         PART TWO
 // ***************************
